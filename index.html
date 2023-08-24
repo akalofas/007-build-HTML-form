@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-Us">
+    <head>
+        <meta charset="utf-8">
+        <title>Built HTML Form</title>
+    </head>
+    <body>
+        <form action="/url-form-data" method="post">
+            <fieldset>
+                <legend>Add User</legend>
+                <div>
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="first_name">
+                </div>
+                <div>
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="last_name">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email_address">
+                </div>
+                <div>
+                    <label for="status">Status</label>
+                    <select name="user_status" id="status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>                 
+                </div>
+                <div>
+                    <p>Choose your favorite programming language</p>
+                    <label for="html">HTML</label>
+                    <input type="radio" id="html">
+                    <label for="css">CSS</label>
+                    <input type="radio" id="css">
+                    <label for="javascript">JavaScript</label>
+                    <input type="radio" id="javascript">
+                </div>
+                <div>
+                    <textarea name="comments" id="comments">Comments</textarea>
+                </div>
+                <div>
+                    <label for="date">Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div>
+                    <input type="checkbox" id="newsletter">
+                    <label for="newsletter">Sign up for Newsletter</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="terms_condition">
+                    <label for="terms_condition">Agree to Terms and Condition</label>
+                </div>
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </fieldset>
+        </form>        
+    </body>
+</html>
